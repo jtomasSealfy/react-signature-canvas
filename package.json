@@ -35,11 +35,15 @@
     "react-signature-pad"
   ],
   "scripts": {
+    "start": "webpack-dev-server -d --inline --hot",
+    "clean": "rm -rf dist/ && rm -f *.tgz",
+    "clean:build": "npm run clean && npm run build",
+    "build": "webpack -p --config webpack.production.config.js",
     "lint": "standard --parser babel-eslint",
     "lint:fix": "standard --parser babel-eslint --fix",
-    "start": "webpack-dev-server -d --inline --hot",
-    "build": "webpack -p --config webpack.production.config.js",
     "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
     "test:pub": "npm run build && npm pack",
     "pub": "npm run build && npm publish",
     "changelog": "changelog-maker"
