@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 
 import SignaturePad from '../src/index.js'
 
@@ -42,4 +42,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('container'))
+createRoot(document.getElementById('container')).render(<App />)
