@@ -16,16 +16,16 @@
   ],
   "author": "Anton Gilgur",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/agilgur5/react-signature-canvas",
+  "homepage": "https://github.com/jtomasSealfy/react-signature-canvas",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agilgur5/react-signature-canvas.git"
+    "url": "https://github.com/jtomasSealfy/react-signature-canvas.git"
   },
   "bugs": {
-    "url": "https://github.com/agilgur5/react-signature-canvas/issues"
+    "url": "https://github.com/jtomasSealfy/react-signature-canvas/issues"
   },
   "funding": {
-    "url": "https://github.com/sponsors/agilgur5"
+    "url": "https://github.com/sponsors/jtomasSealfy"
   },
   "keywords": [
     "react",
@@ -77,8 +77,8 @@
     "trim-canvas": "^0.1.0"
   },
   "devDependencies": {
-    "@agilgur5/changelog-maker": "^3.0.0",
-    "@agilgur5/tsconfig": "^0.0.1",
+    "@jtomasSealfy/changelog-maker": "^3.0.0",
+    "@jtomasSealfy/tsconfig": "^0.0.1",
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
