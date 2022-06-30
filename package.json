@@ -77,8 +77,8 @@
     "trim-canvas": "^0.1.0"
   },
   "devDependencies": {
-    "@jtomasSealfy/changelog-maker": "^3.0.0",
-    "@jtomasSealfy/tsconfig": "^0.0.1",
+    "@agilgur5/changelog-maker": "^3.0.0",
+    "@agilgur5/tsconfig": "^0.0.1",
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
